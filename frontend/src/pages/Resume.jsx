@@ -11,7 +11,7 @@ export default function Resume() {
         <div className="rule" />
       </div>
 
-      <a className="dl-btn mono" href="/resume.pdf">
+      <a className="dl-btn mono" href={`${import.meta.env.BASE_URL}resume.pdf`}>
         [ Download PDF Resume ]
       </a>
 

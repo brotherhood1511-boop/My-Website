@@ -1,5 +1,11 @@
 export const education = [
   {
+    when: "Dec 2019 – Apr 2020",
+    title: "Armament Systems Technician Technical Training (AFSC 2W1X1F)",
+    org: "Sheppard Air Force Base — Wichita Falls, TX",
+    description: "",
+  },
+  {
     when: "In Progress",
     title: "Software Engineering Program",
     org: "Flatiron School",

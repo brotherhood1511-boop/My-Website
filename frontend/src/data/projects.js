@@ -8,6 +8,7 @@ export const projects = [
     description: "A full-stack Security Forces Squadron admin tracking app — still in progress, no database yet.",
     stack: ["React", "Node.js"],
     github: "https://github.com/brotherhood1511-boop/SFS-Prototype",
+    demo: "https://sfs-prototype-6lfcxl7l7-km26.vercel.app/login",
   },
   {
     id: "wordly-plus",
