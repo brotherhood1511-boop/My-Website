@@ -15,8 +15,8 @@ export default function TravelCard({ trip }) {
           </p>
         ))}
         <h3>{trip.location}</h3>
-        <p className="note">{trip.note}</p>
-        <p className="count mono">{trip.images.length} photos</p>
+        {trip.note && <p className="note">{trip.note}</p>}
+        {trip.images.length > 0 && <p className="count mono">{trip.images.length} photos</p>}
         <Gallery images={trip.images.slice(1)} />
       </div>
     </div>

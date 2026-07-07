@@ -242,6 +242,79 @@ section.page {
   color: var(--ink);
 }
 
+/* ===== Home — globe ===== */
+.globe-panel {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 1.5rem 1.5rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.globe-loading {
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.globe-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.globe-legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.globe-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.globe-legend .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.globe-legend .dot-travel { background: #4e9be0; }
+.globe-legend .dot-military { background: #b9c2cb; }
+.globe-legend .dot-lived { background: #8fc7ff; box-shadow: 0 0 0 2px rgba(143, 199, 255, 0.25); }
+
+/* react-globe.gl tooltip (rendered outside React's tree) */
+.globe-tip {
+  background: var(--panel-2);
+  border: 1px solid var(--blue-dim);
+  color: var(--ink);
+  padding: 0.5rem 0.7rem;
+  font-size: 0.78rem;
+  font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+  max-width: 14rem;
+}
+
+.globe-tip strong {
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+.globe-tip div {
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
 /* ===== Home — teaser links out ===== */
 .teasers {
   display: grid;

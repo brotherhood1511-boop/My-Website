@@ -1,5 +1,8 @@
+import { lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
 import portrait from "../assets/travel/Italy/IMG_5416.PNG";
+
+const Globe = lazy(() => import("../components/Globe.jsx"));
 
 const teasers = [
   { idx: "01", to: "/military", title: "Military", desc: "Service clock, deployments, TDYs, badges & medals." },
@@ -11,6 +14,10 @@ const teasers = [
 export default function Home() {
   return (
     <section className="page">
+      <Suspense fallback={<div className="globe-panel globe-loading mono">Loading globe…</div>}>
+        <Globe />
+      </Suspense>
+
       <div className="dossier">
         <div className="top">
           <span>Personnel File · Active</span>
