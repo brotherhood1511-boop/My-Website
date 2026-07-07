@@ -2,6 +2,31 @@ export const CATEGORIES = ["Software", "Networking", "Cybersecurity"];
 
 export const projects = [
   {
+    id: "sfs-prototype",
+    title: "SFS Prototype",
+    category: "Software",
+    description: "A full-stack Security Forces Squadron admin tracking app — still in progress, no database yet.",
+    stack: ["React", "Node.js"],
+    github: "https://github.com/brotherhood1511-boop/SFS-Prototype",
+  },
+  {
+    id: "wordly-plus",
+    title: "Wordly+",
+    category: "Software",
+    description:
+      "A single-page dictionary app pulling from a dictionary API. Search words for definitions, pronunciation, audio, example sentences, and synonyms, with search history, saved favorites, a random word generator, light/dark mode, and a responsive layout.",
+    stack: ["JavaScript", "HTML", "CSS", "API"],
+    github: "https://github.com/brotherhood1511-boop/spa-single-page",
+  },
+  {
+    id: "batfamily-trivia",
+    title: "Batfamily Trivia",
+    category: "Software",
+    description: "A command-line trivia game about the Batfamily.",
+    stack: ["JavaScript"],
+    github: "https://github.com/brotherhood1511-boop/batfamily-trivia-cli",
+  },
+  {
     id: "announcement",
     title: "Baby Announcement Trivia",
     category: "Software",
@@ -36,37 +61,5 @@ export const projects = [
     stack: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/brotherhood1511-boop/Javascript-Calculator",
     demo: "https://brotherhood1511-boop.github.io/Javascript-Calculator/",
-  },
-  {
-    id: "js-event-logging",
-    title: "JavaScript Event Logging System",
-    category: "Software",
-    description:
-      "Functions to log and manage event data, using reusable logic and structured coding practices.",
-    stack: ["JavaScript"],
-  },
-  {
-    id: "web-page-dev",
-    title: "Web Page Development Project",
-    category: "Software",
-    description:
-      "Structured web pages built with HTML, integrating external media and resolving rendering/file-path issues.",
-    stack: ["HTML"],
-  },
-  {
-    id: "debugging-lab",
-    title: "Debugging & Error Resolution Lab",
-    category: "Software",
-    description:
-      "Identified and corrected syntax and logic errors in JavaScript using step-by-step debugging strategies.",
-    stack: ["JavaScript"],
-  },
-  {
-    id: "github-workflow",
-    title: "GitHub Version Control Workflow",
-    category: "Software",
-    description:
-      "Cloned repositories, managed local environments, and committed/pushed updates following version control best practices.",
-    stack: ["Git", "GitHub"],
   },
 ];
