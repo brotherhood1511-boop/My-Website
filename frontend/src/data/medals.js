@@ -10,6 +10,7 @@ import expeditionaryServiceGold from "../assets/military/medals/air-space-expedi
 import humanitarianService from "../assets/military/medals/humanitarian-service-medal.svg";
 import armedForcesReserve from "../assets/military/medals/armed-forces-reserve-medal.svg";
 import trainingRibbon from "../assets/military/medals/air-space-training-ribbon.svg";
+import dcngInauguration from "../assets/military/medals/dcng-presidential-inauguration-support-ribbon.png";
 
 // Ribbon images are official U.S. government (public domain) graphics via Wikimedia Commons.
 export const medals = [
@@ -77,5 +78,11 @@ export const medals = [
     id: "training-ribbon",
     title: "Air and Space Training Ribbon",
     image: trainingRibbon,
+  },
+  {
+    id: "dcng-inauguration-support-ribbon",
+    title: "DCNG Presidential Inauguration Support Ribbon",
+    device: "State Award — D.C. National Guard",
+    image: dcngInauguration,
   },
 ];
