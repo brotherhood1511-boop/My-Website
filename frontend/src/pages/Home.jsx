@@ -14,10 +14,6 @@ const teasers = [
 export default function Home() {
   return (
     <section className="page">
-      <Suspense fallback={<div className="globe-panel globe-loading mono">Loading globe…</div>}>
-        <Globe />
-      </Suspense>
-
       <div className="dossier">
         <div className="top">
           <span>Personnel File · Active</span>
@@ -35,9 +31,10 @@ export default function Home() {
               <span>Air National Guard</span>
             </div>
             <p className="bio">
-              I write software during the day and pull knowledge-management shifts with the Air National
-              Guard the rest of the time. This site is where those two lives meet — the code I ship, the
-              time in service, and the places travel has taken me in between.
+              I'm a software developer, Air National Guard member, and technology enthusiast with a passion
+              for building practical, user-focused solutions. My interests include software development,
+              cybersecurity, networking, and emerging technologies. Through every project, I strive to
+              learn, solve real-world problems, and continuously improve my skills.
             </p>
             <div className="fields mono">
               <div>
@@ -56,6 +53,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Suspense fallback={<div className="globe-panel globe-loading mono">Loading globe…</div>}>
+        <Globe />
+      </Suspense>
 
       <div className="teasers">
         {teasers.map((t) => (
