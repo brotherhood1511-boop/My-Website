@@ -38,4 +38,11 @@ export const timeline = [
     description: "Promoted to Senior Airman (E-4).",
     images: militaryFolder("SrAPromotion"),
   },
+  {
+    id: "alaska-swear-in",
+    when: "2025-06-27 13:07",
+    title: "Sworn Into the Alaska Air National Guard",
+    description: "Sworn into the Alaska Air National Guard.",
+    images: militaryFolder("Alaska Swear In"),
+  },
 ];
