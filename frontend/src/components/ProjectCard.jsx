@@ -1,6 +1,11 @@
 export default function ProjectCard({ project }) {
   return (
     <div className="proj-card">
+      {project.screenshot && (
+        <div className="proj-shot">
+          <img src={project.screenshot} alt={`${project.title} homepage`} />
+        </div>
+      )}
       <h3>{project.title}</h3>
       <p className="desc">{project.description}</p>
       {(project.github || project.demo) && (

@@ -1,3 +1,8 @@
+import sfsWebsiteShot from "../assets/projects/sfs-website.png";
+import announcementShot from "../assets/projects/announcement.png";
+import roadsignalShot from "../assets/projects/roadsignal.png";
+import jsCalculatorShot from "../assets/projects/js-calculator.png";
+
 export const CATEGORIES = ["Software", "Networking", "Cybersecurity"];
 
 export const projects = [
@@ -10,6 +15,7 @@ export const projects = [
     stack: ["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL"],
     github: "https://github.com/brotherhood1511-boop/SFS-website",
     demo: "https://sfs-website-fawn.vercel.app/",
+    screenshot: sfsWebsiteShot,
   },
   {
     id: "sfs-prototype",
@@ -46,6 +52,7 @@ export const projects = [
     stack: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/brotherhood1511-boop/Announcement",
     demo: "https://brotherhood1511-boop.github.io/Announcement/",
+    screenshot: announcementShot,
   },
   {
     id: "roadsignal",
@@ -55,6 +62,7 @@ export const projects = [
     stack: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/brotherhood1511-boop/Roadsignal-app",
     demo: "https://brotherhood1511-boop.github.io/Roadsignal-app/",
+    screenshot: roadsignalShot,
   },
   {
     id: "color-clock",
@@ -72,5 +80,6 @@ export const projects = [
     stack: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/brotherhood1511-boop/Javascript-Calculator",
     demo: "https://brotherhood1511-boop.github.io/Javascript-Calculator/",
+    screenshot: jsCalculatorShot,
   },
 ];
