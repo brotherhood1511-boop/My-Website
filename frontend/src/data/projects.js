@@ -2,6 +2,16 @@ export const CATEGORIES = ["Software", "Networking", "Cybersecurity"];
 
 export const projects = [
   {
+    id: "sfs-website",
+    title: "113th Security Forces Squadron Site",
+    category: "Software",
+    description:
+      "Drill-weekend information hub and newsletter site for the 113th Security Forces Squadron, with a login-gated staff tracker for PT test scheduling and training requirements.",
+    stack: ["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL"],
+    github: "https://github.com/brotherhood1511-boop/SFS-website",
+    demo: "https://sfs-website-fawn.vercel.app/",
+  },
+  {
     id: "sfs-prototype",
     title: "SFS Prototype",
     category: "Software",
