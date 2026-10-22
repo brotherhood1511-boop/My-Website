@@ -26,6 +26,7 @@ export const places = [
   { lat: 61.2181, lng: -149.9003, label: "Anchorage, AK", sub: "Alaska ANG drill", type: "military" },
   { lat: 29.3844, lng: -98.6197, label: "Lackland AFB, TX", sub: "Basic Training, 2019", type: "military" },
   { lat: 33.8888, lng: -98.4934, label: "Sheppard AFB, TX", sub: "Tech School, 2019–2020", type: "military" },
+  { lat: 30.4118, lng: -88.9245, label: "Keesler AFB, MS", sub: "Cyberspace Fundamentals, Sep 2026 – Present", type: "military" },
   { lat: 38.9072, lng: -77.0369, label: "Washington, DC", sub: "Coined by a two-star general, 2022", type: "military" },
   { lat: 38.8108, lng: -76.8669, label: "Andrews AFB, MD", sub: "Security Escort / Security Assistant", type: "military" },
   { lat: 39.6295, lng: -79.9559, label: "West Virginia", sub: "Admin Training Week, Aug 2023", type: "military" },

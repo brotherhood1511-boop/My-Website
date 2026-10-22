@@ -15,4 +15,11 @@ export const tdys = [
     description: "Training mission TDY to Guam, with a one-night stay in Fussa, Japan en route home.",
     images: militaryFolder("Guam"),
   },
+  {
+    id: "keesler-cyberspace",
+    when: "2026-09-01 – Present",
+    location: "Keesler AFB, Mississippi",
+    description: "Cyberspace Fundamentals technical training at Keesler Air Force Base in Biloxi, MS.",
+    images: [],
+  },
 ];
