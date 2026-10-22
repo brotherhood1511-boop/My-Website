@@ -6,6 +6,7 @@ import Military from "./pages/Military.jsx";
 import Resume from "./pages/Resume.jsx";
 import Travel from "./pages/Travel.jsx";
 import Projects from "./pages/Projects.jsx";
+import Certs from "./pages/Certs.jsx";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/travel" element={<Travel />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/certs" element={<Certs />} />
         </Routes>
       </main>
       <Footer />

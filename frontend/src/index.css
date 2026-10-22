@@ -59,7 +59,8 @@ nav.site-nav {
   top: 0;
   z-index: 20;
   display: flex;
-  gap: 1.25rem;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
   justify-content: center;
   padding: 0.85rem 1rem;
   background: rgba(10, 13, 20, 0.85);
@@ -822,6 +823,104 @@ section.page {
   background: var(--panel-2);
   border: 1px solid var(--line);
   padding: 0.2rem 0.5rem;
+}
+
+/* ===== Certs ===== */
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.cert-card {
+  display: grid;
+  grid-template-columns: 17rem 1fr;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.cert-preview {
+  display: flex;
+  align-items: center;
+  background: var(--panel-2);
+  border-right: 1px solid var(--line);
+  padding: 1rem;
+}
+
+.cert-preview img {
+  width: 100%;
+  display: block;
+}
+
+.cert-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.cert-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.cert-body h3 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.cert-body .org {
+  font-size: 0.72rem;
+  color: var(--blue);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.cert-body p.desc {
+  font-size: 0.85rem;
+  color: var(--ink);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.cert-body .stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.cert-body .stack span {
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  color: var(--silver);
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  padding: 0.2rem 0.5rem;
+}
+
+.cert-body .cert-link {
+  font-size: 0.72rem;
+  color: var(--blue);
+  text-decoration: none;
+  margin-top: 0.2rem;
+}
+
+.cert-body .cert-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .cert-card {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-preview {
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+  }
 }
 
 .empty-note {
