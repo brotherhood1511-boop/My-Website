@@ -40,6 +40,7 @@ export default function Resume() {
               title={item.title}
               org={item.org}
               description={item.description}
+              certificate={item.certificate}
             />
           ))}
         </div>

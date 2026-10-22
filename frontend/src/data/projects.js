@@ -2,6 +2,7 @@ import sfsWebsiteShot from "../assets/projects/sfs-website.png";
 import announcementShot from "../assets/projects/announcement.png";
 import roadsignalShot from "../assets/projects/roadsignal.png";
 import jsCalculatorShot from "../assets/projects/js-calculator.png";
+import eatalianoShot from "../assets/projects/eataliano.png";
 
 export const CATEGORIES = ["Software", "Networking", "Cybersecurity"];
 
@@ -16,6 +17,17 @@ export const projects = [
     github: "https://github.com/brotherhood1511-boop/SFS-website",
     demo: "https://sfs-website-fawn.vercel.app/",
     screenshot: sfsWebsiteShot,
+  },
+  {
+    id: "eataliano",
+    title: "Eataliano",
+    category: "Software",
+    description:
+      "Website for Eataliano Italian Kitchen & Bar in Biloxi, MS, with the full lunch, dinner, dessert, and drink menu, plus happy hour, live music, events, and press. Still in progress.",
+    stack: ["React", "Vite", "React Router", "CSS"],
+    github: "https://github.com/brotherhood1511-boop/Eatalianos",
+    demo: "https://eatalianos.vercel.app/",
+    screenshot: eatalianoShot,
   },
   {
     id: "sfs-prototype",

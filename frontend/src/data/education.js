@@ -1,4 +1,14 @@
+import cyberspaceCert from "../assets/certs/cyberspace-fundamentals.pdf";
+
 export const education = [
+  {
+    when: "Oct 2026",
+    title: "Cyberspace Fundamentals",
+    org: "U.S. Air Force — Keesler AFB, MS",
+    description:
+      "296-hour Air Force technical training course covering networking, client systems, switching and routing, server administration, and cyber security. Finished with a hands-on capstone where I built an enterprise network end to end: Juniper routing and firewall zones, switch VLANs, and a Windows Server domain running Active Directory and DHCP.",
+    certificate: cyberspaceCert,
+  },
   {
     when: "Dec 2019 – Apr 2020",
     title: "Armament Systems Technician Technical Training (AFSC 2W1X1F)",
